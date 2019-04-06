@@ -1,0 +1,6 @@
+com.bs.lucene.codec.TestCodec.TestCodec
+com.bs.lucene.codec.DGapCodec.DGapCodec
+com.bs.lucene.codec.VByteCodec.VByteCodec
+com.bs.lucene.codec.Simple9Codec.Simple9Codec
+com.bs.lucene.codec.PForDelta.PForDeltaCodec
+

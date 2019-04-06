@@ -1,0 +1,888 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a1b9e5c8-700c-4ce8-9184-568a7b6e579f" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/bs/lucene/Indexer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="35" column="44" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/bs/lucene/TestFastPFOR.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="178">
+              <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/bs/lucene/codec/algorithm/MyPForDelta.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="166">
+              <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/Downloads/JavaFastPFOR-master/prebuiltbinaries/JavaFastPFOR-0.0.7.jar!/com/kamikaze/pfordelta/PForDelta.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-464">
+              <caret line="24" column="20" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/bs/lucene/codec/PForDelta/SimpleTextUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/bs/lucene/codec/PForDelta/SimpleTextFieldsReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="453">
+              <caret line="462" column="58" selection-start-line="462" selection-start-column="58" selection-end-line="462" selection-end-column="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/bs/lucene/RunLucene.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="172">
+              <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/bs/lucene/codec/PForDelta/SimpleTextFieldsWriter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="233">
+              <caret line="82" column="57" lean-forward="true" selection-start-line="82" selection-start-column="57" selection-end-line="82" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/bs/lucene/codec/PForDelta/SimpleTextPostingsFormat.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="24" column="41" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/bs/lucene/codec/DGapCodec/SimpleTextFieldsReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="386">
+              <caret line="471" column="21" lean-forward="true" selection-start-line="471" selection-start-column="21" selection-end-line="471" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>rea</find>
+      <find>lastTerm</find>
+      <find>scratchIntsRef</find>
+      <find>b.add</find>
+      <find>termsStart</find>
+      <find>firstIndex</find>
+      <find>Sy</find>
+      <find>wroteField</find>
+      <find>Posting</find>
+      <find>this.scratch</find>
+      <find>read</find>
+      <find>Array</find>
+      <find>ReadLine</find>
+      <find>readLine</find>
+      <find>lastDocsStart</find>
+      <find>nextDoc</find>
+      <find>tf</find>
+      <find>freq()</find>
+      <find>docFreq</find>
+      <find>DocFreq</find>
+      <find>CHECKSUM</find>
+      <find>Tmp</find>
+      <find>Test</find>
+      <find>visitedDocs</find>
+      <find>omitTF</find>
+      <find>insertA</find>
+      <find>inser</find>
+      <find>Dgap</find>
+      <find>SimpleTextFieldsWriter</find>
+      <find>DG</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/bs/lucene/LuceneConstants.java" />
+        <option value="$PROJECT_DIR$/src/com/bs/lucene/TextFileFilter.java" />
+        <option value="$PROJECT_DIR$/src/com/bs/lucene/Searcher.java" />
+        <option value="$PROJECT_DIR$/src/com/bs/lucene/SimpleText.java" />
+        <option value="$PROJECT_DIR$/src/com/bs/lucene/SimpleTextCodec.java" />
+        <option value="$PROJECT_DIR$/src/com/bs/lucene/TestCodec.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/services/com.bs.lucene.codec" />
+        <option value="$PROJECT_DIR$/src/com/bs/lucene/codec/Codes.java" />
+        <option value="$PROJECT_DIR$/src/com/bs/lucene/codec/TestCodec.java" />
+        <option value="$PROJECT_DIR$/src/com/bs/lucene/codec/Simple9.java" />
+        <option value="$PROJECT_DIR$/src/com/bs/lucene/codec/TestSimple9.java" />
+        <option value="$PROJECT_DIR$/src/com/bs/lucene/codec/PForDelta.java" />
+        <option value="$PROJECT_DIR$/src/com/bs/lucene/codec/SimpleTextPostingsFormat.java" />
+        <option value="$PROJECT_DIR$/src/com/bs/lucene/codec/SimpleTextFieldsWriter.java" />
+        <option value="$PROJECT_DIR$/src/com/bs/lucene/codec/SimpleTextUtil.java" />
+        <option value="$PROJECT_DIR$/src/com/bs/lucene/codec/SimpleTextFieldsReader.java" />
+        <option value="$PROJECT_DIR$/src/com/bs/lucene/codec/algorithm/PForDelta.java" />
+        <option value="$PROJECT_DIR$/src/com/bs/lucene/codec/Simple9Codec/SimpleTextPostingsFormat.java" />
+        <option value="$PROJECT_DIR$/src/com/bs/lucene/codec/DGapCodec/TestCodec.java" />
+        <option value="$PROJECT_DIR$/src/com/bs/lucene/codec/DGapCodec/DGapCodec.java" />
+        <option value="$PROJECT_DIR$/src/com/bs/lucene/codec/PForDelta/TestCodec.java" />
+        <option value="$PROJECT_DIR$/src/com/bs/lucene/codec/Simple9Codec/TestCodec.java" />
+        <option value="$PROJECT_DIR$/src/com/bs/lucene/codec/VByteCodec/TestCodec.java" />
+        <option value="$PROJECT_DIR$/src/META-INF/services/org.apache.lucene.codecs.Codec" />
+        <option value="$PROJECT_DIR$/src/com/bs/lucene/codec/TestCodec/SimpleTextUtil.java" />
+        <option value="$PROJECT_DIR$/src/com/bs/lucene/codec/TestCodec/SimpleTextFieldsWriter.java" />
+        <option value="$PROJECT_DIR$/src/com/bs/lucene/codec/algorithm/DGap.java" />
+        <option value="$PROJECT_DIR$/src/com/bs/lucene/codec/algorithm/Simple9.java" />
+        <option value="$PROJECT_DIR$/src/com/bs/lucene/codec/DGapCodec/SimpleTextFieldsWriter.java" />
+        <option value="$PROJECT_DIR$/src/com/bs/lucene/codec/Simple9Codec/SimpleTextFieldsWriter.java" />
+        <option value="$PROJECT_DIR$/src/com/bs/lucene/RunLucene.java" />
+        <option value="$PROJECT_DIR$/src/com/bs/lucene/codec/algorithm/MyVByte.java" />
+        <option value="$PROJECT_DIR$/src/com/bs/lucene/codec/VByteCodec/SimpleTextFieldsWriter.java" />
+        <option value="$PROJECT_DIR$/src/com/bs/lucene/codec/VByteCodec/SimpleTextFieldsReader.java" />
+        <option value="$PROJECT_DIR$/src/com/bs/lucene/codec/algorithm/MySimple9.java" />
+        <option value="$PROJECT_DIR$/src/com/bs/lucene/codec/Simple9Codec/SimpleTextFieldsReader.java" />
+        <option value="$PROJECT_DIR$/src/com/bs/lucene/codec/TestCodec/SimpleTextFieldsReader.java" />
+        <option value="$PROJECT_DIR$/src/com/bs/lucene/codec/DGapCodec/SimpleTextFieldsReader.java" />
+        <option value="$PROJECT_DIR$/src/com/bs/lucene/codec/PForDelta/SimpleTextPostingsFormat.java" />
+        <option value="$PROJECT_DIR$/src/com/bs/lucene/codec/PForDelta/SimpleTextFieldsWriter.java" />
+        <option value="$PROJECT_DIR$/src/com/bs/lucene/codec/PForDelta/SimpleTextFieldsReader.java" />
+        <option value="$PROJECT_DIR$/src/com/bs/lucene/Indexer.java" />
+        <option value="$PROJECT_DIR$/src/com/bs/lucene/codec/algorithm/MyPForDelta.java" />
+        <option value="$PROJECT_DIR$/src/com/bs/lucene/TestFastPFOR.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="LuceneApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LuceneApp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LuceneApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LuceneApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LuceneApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/bs/lucene/codec/PForDelta" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/bs/lucene/codec/PForDelta" />
+      <recent name="$PROJECT_DIR$/src/com/bs/lucene/codec/VByteCodec" />
+      <recent name="$PROJECT_DIR$/src/com/bs/lucene/codec/DGapCodec" />
+      <recent name="$PROJECT_DIR$/src/com/bs/lucene/codec/Simple9Codec" />
+      <recent name="$PROJECT_DIR$/src/com/bs/lucene/codec" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.bs.lucene.codec.Simple9Codec" />
+      <recent name="com.bs.lucene.codec.PForDelta" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/bs/lucene/codec/algorithm" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.RunLucene">
+    <configuration name="RunLucene" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bs.lucene.RunLucene" />
+      <module name="LuceneApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bs.lucene.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestFastPFOR" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bs.lucene.TestFastPFOR" />
+      <module name="LuceneApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bs.lucene.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.RunLucene" />
+        <item itemvalue="Application.TestFastPFOR" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a1b9e5c8-700c-4ce8-9184-568a7b6e579f" name="Default Changelist" comment="" />
+      <created>1554207402078</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1554207402078</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2832618" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.32891566" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2832618" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.32891566" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout-to-restore>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$USER_HOME$/lucene-8.0.0/codecs/lucene-codecs-8.0.0.jar!/org/apache/lucene/codecs/simpletext/SimpleTextUtil.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="58" column="46" selection-start-line="58" selection-start-column="42" selection-end-line="58" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/lucene-8.0.0/codecs/lucene-codecs-8.0.0.jar!/org/apache/lucene/codecs/simpletext/SimpleTextFieldsReader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="182" column="39" selection-start-line="182" selection-start-column="31" selection-end-line="182" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bs/lucene/codec/PForDelta/PForDeltaCodec.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/META-INF/services/org.apache.lucene.codecs.Codec">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/JavaFastPFOR-master/prebuiltbinaries/JavaFastPFOR-0.0.7.jar!/me/lemire/integercompression/IntWrapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/JavaFastPFOR-master/prebuiltbinaries/JavaFastPFOR-0.0.7.jar!/me/lemire/integercompression/VariableByte.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/lucene-8.0.0/core/lucene-core-8.0.0.jar!/org/apache/lucene/util/BytesRef.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bs/lucene/codec/TestCodec/SimpleTextUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="56" column="14" selection-start-line="56" selection-start-column="14" selection-end-line="56" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bs/lucene/codec/TestCodec/SimpleTextPostingsFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bs/lucene/codec/VByteCodec/SimpleTextPostingsFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/JavaFastPFOR-master/prebuiltbinaries/JavaFastPFOR-0.0.7.jar!/me/lemire/integercompression/Composition.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-47">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/JavaFastPFOR-master/prebuiltbinaries/JavaFastPFOR-0.0.7.jar!/me/lemire/integercompression/DeltaZigzagEncoding.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/JavaFastPFOR-master/prebuiltbinaries/JavaFastPFOR-0.0.7.jar!/me/lemire/integercompression/DeltaZigzagVariableByte.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1576">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/JavaFastPFOR-master/prebuiltbinaries/JavaFastPFOR-0.0.7.jar!/me/lemire/integercompression/OptPFD.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/JavaFastPFOR-master/prebuiltbinaries/JavaFastPFOR-0.0.7.jar!/me/lemire/integercompression/S9.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1157">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/JavaFastPFOR-master/prebuiltbinaries/JavaFastPFOR-0.0.7.jar!/me/lemire/integercompression/Util.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/JavaFastPFOR-master/prebuiltbinaries/JavaFastPFOR-0.0.7.jar!/me/lemire/integercompression/XorBinaryPacking.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/JavaFastPFOR-master/prebuiltbinaries/JavaFastPFOR-0.0.7.jar!/me/lemire/integercompression/NewPFD.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/JavaFastPFOR-master/prebuiltbinaries/JavaFastPFOR-0.0.7.jar!/me/lemire/integercompression/FastPFOR.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="21" column="32" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/JavaFastPFOR-master/prebuiltbinaries/JavaFastPFOR-0.0.7.jar!/me/lemire/integercompression/DeltaZigzagBinaryPacking.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-76">
+          <caret line="16" column="79" selection-start-line="16" selection-start-column="73" selection-end-line="16" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/JavaFastPFOR-master/prebuiltbinaries/JavaFastPFOR-0.0.7.jar!/me/lemire/integercompression/Delta.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bs/lucene/codec/DGapCodec/DGapCodec.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#337#338#0" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bs/lucene/codec/DGapCodec/SimpleTextUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="691">
+          <caret line="103" column="5" lean-forward="true" selection-start-line="103" selection-start-column="5" selection-end-line="103" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bs/lucene/codec/TestCodec/TestCodec.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bs/lucene/codec/TestCodec/SimpleTextFieldsWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bs/lucene/codec/DGapCodec/SimpleTextPostingsFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bs/lucene/codec/DGapCodec/SimpleTextFieldsWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="84" column="26" selection-start-line="84" selection-start-column="26" selection-end-line="84" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bs/lucene/codec/Simple9Codec/Simple9Codec.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/JavaFastPFOR-master/prebuiltbinaries/JavaFastPFOR-0.0.7.jar!/me/lemire/integercompression/Simple9.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="86" selection-start-line="86" selection-end-line="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bs/lucene/codec/algorithm/MyVByte.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="30" column="10" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bs/lucene/codec/Simple9Codec/SimpleTextPostingsFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="24" column="47" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bs/lucene/codec/Simple9Codec/SimpleTextFieldsWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1863">
+          <caret line="81" column="58" selection-start-line="81" selection-start-column="52" selection-end-line="81" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bs/lucene/codec/algorithm/DGap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bs/lucene/codec/Simple9Codec/SimpleTextUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bs/lucene/codec/VByteCodec/VByteCodec.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bs/lucene/codec/VByteCodec/SimpleTextUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-497">
+          <caret line="27" column="55" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bs/lucene/codec/VByteCodec/SimpleTextFieldsWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="133" column="28" selection-start-line="133" selection-start-column="23" selection-end-line="133" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bs/lucene/codec/VByteCodec/SimpleTextFieldsReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="466" column="58" selection-start-line="466" selection-start-column="58" selection-end-line="466" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bs/lucene/codec/Simple9Codec/SimpleTextFieldsReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-238">
+          <caret line="169" column="40" lean-forward="true" selection-start-line="169" selection-start-column="40" selection-end-line="169" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bs/lucene/codec/TestCodec/SimpleTextFieldsReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="472" column="47" selection-start-line="472" selection-start-column="47" selection-end-line="472" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4124#4125#0" expanded="true" />
+            <element signature="e#4207#4208#0" expanded="true" />
+            <element signature="e#4756#4757#0" expanded="true" />
+            <element signature="e#4781#4782#0" expanded="true" />
+            <element signature="e#5563#5564#0" expanded="true" />
+            <element signature="e#5657#5658#0" expanded="true" />
+            <element signature="e#10794#10795#0" expanded="true" />
+            <element signature="e#10845#10846#0" expanded="true" />
+            <element signature="e#10890#10891#0" expanded="true" />
+            <element signature="e#10942#10943#0" expanded="true" />
+            <element signature="e#11663#11664#0" expanded="true" />
+            <element signature="e#11722#11723#0" expanded="true" />
+            <element signature="e#12691#12692#0" expanded="true" />
+            <element signature="e#12740#12741#0" expanded="true" />
+            <element signature="e#13370#13371#0" expanded="true" />
+            <element signature="e#13411#13412#0" expanded="true" />
+            <element signature="e#16526#16527#0" expanded="true" />
+            <element signature="e#16569#16570#0" expanded="true" />
+            <element signature="e#16599#16600#0" expanded="true" />
+            <element signature="e#16645#16646#0" expanded="true" />
+            <element signature="e#17359#17360#0" expanded="true" />
+            <element signature="e#17408#17409#0" expanded="true" />
+            <element signature="e#17747#17748#0" expanded="true" />
+            <element signature="e#17788#17789#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bs/lucene/codec/DGapCodec/SimpleTextFieldsReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="471" column="21" lean-forward="true" selection-start-line="471" selection-start-column="21" selection-end-line="471" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bs/lucene/codec/PForDelta/SimpleTextPostingsFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="24" column="41" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bs/lucene/codec/algorithm/MySimple9.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" selection-start-line="12" selection-end-line="37" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bs/lucene/codec/PForDelta/SimpleTextUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/JavaFastPFOR-master/prebuiltbinaries/JavaFastPFOR-0.0.7.jar!/com/kamikaze/pfordelta/PForDelta.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-464">
+          <caret line="24" column="20" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bs/lucene/codec/PForDelta/SimpleTextFieldsWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="82" column="57" lean-forward="true" selection-start-line="82" selection-start-column="57" selection-end-line="82" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bs/lucene/codec/PForDelta/SimpleTextFieldsReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="462" column="58" selection-start-line="462" selection-start-column="58" selection-end-line="462" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bs/lucene/Indexer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="35" column="44" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bs/lucene/codec/algorithm/MyPForDelta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bs/lucene/RunLucene.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bs/lucene/TestFastPFOR.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>LuceneApp</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
